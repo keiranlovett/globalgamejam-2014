@@ -8,9 +8,10 @@ public class gameManager : MonoBehaviour {
 	public bool firstPerson;
 	public Transform FogOfWarPlane;
 	public GameObject localplayerPos;
-
+	public Transform[] playerSpawns;
+	public bool roundSet;
+	
 	//Random Counter 
-	float t;
 	public int range;
 
 	public GameObject playerA;
@@ -27,14 +28,14 @@ public class gameManager : MonoBehaviour {
 	void Start () {
 		//If leader - determines game states. TODO fix
 		isLeader = true;
-
+		stalkStatusTemp = 0;
 		//Set Game mode to first person perspective
 		if(firstPerson == true) {
 			localplayerPos.GetComponent<MouseLook>().enabled = true;
 			localplayerPos.transform.Find("Main Camera").GetComponent<MouseLook>().enabled = true;
 			localplayerPos.transform.Find("Main Camera").transform.localPosition = new Vector3(0,0,0);
 		}
-
+		roundSet = false;
 		playerAScore = 0;
 		playerBScore = 0;
 	}
@@ -52,7 +53,7 @@ public class gameManager : MonoBehaviour {
 				FogOfWarPlane.GetComponent<Renderer>().material.SetVector("_Player1_Pos", playerB.transform.position);
 			}*/
 		} else {
-			FogOfWarPlane.active = false;
+			FogOfWarPlane.gameObject.active = false;
 		}
 
 		//Start the random game state thingy.
@@ -80,9 +81,21 @@ public class gameManager : MonoBehaviour {
 
 		if(playerBScore == scoreLimit || playerBScore == scoreLimit) {
 			//TODO End Game UI 
-
 		}
+		//if(
 
+		if(roundSet == false) {
+			if(isLeader == true) {
+				playerA.transform.position = playerSpawns[Random.Range(0,playerSpawns.Length)].transform.localPosition;
+				playerB.transform.position = playerSpawns[Random.Range(0,playerSpawns.Length)].transform.localPosition;
+				if(playerB.transform.position == playerA.transform.position) {
+					playerB.transform.position = playerSpawns[Random.Range(0,playerSpawns.Length)].transform.localPosition;
+				}
+				if(playerB.transform.position != playerA.transform.position) {
+					roundSet = true;
+				}
+			}
+		}
 	}
 
 	//Determine stalk status randomly. Update variables accordingly.
@@ -94,8 +107,7 @@ public class gameManager : MonoBehaviour {
 		if(rand > range) {
 			stalkStatus = Random.Range(0,2);
 		}
-		
-		yield return new WaitForSeconds(t);
+		yield return new WaitForSeconds(0);
 	}
 
 }
