@@ -458,6 +458,7 @@ GameObject:
   - 114: {fileID: 510299592}
   - 135: {fileID: 510299593}
   - 54: {fileID: 510299594}
+  - 148: {fileID: 510299595}
   m_Layer: 0
   m_Name: First Person Controller
   m_TagString: Player
@@ -624,6 +625,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!148 &510299595
+NetworkView:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 510299586}
+  m_Enabled: 1
+  m_StateSynchronization: 1
+  m_Observed: {fileID: 510299587}
+  m_ViewID:
+    m_ID: 1
+    m_Type: 1
 --- !u!1 &654180641
 GameObject:
   m_ObjectHideFlags: 0

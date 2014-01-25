@@ -36,7 +36,7 @@ public class playerController : MonoBehaviour {
 
 
 		//Tell that lazy coder what exactly is going on.
-		UnityEngine.Debug.Log (state);
+		//UnityEngine.Debug.Log (state);
 	}
 
 	//Handy little function to help us find the closest enemy. With that done we can pull information regarding them.
@@ -66,4 +66,7 @@ public class playerController : MonoBehaviour {
 		}
 	}
 
+	void onSerializeNetworkView(BitStream stream, NetworkMessageInfo info) {
+		Debug.Log("Hey");
+	}
 }

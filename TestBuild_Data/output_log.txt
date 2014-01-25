@@ -1,0 +1,111 @@
+Initialize engine version: 4.3.3f1 (c8ca9b6b9936)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dumx.dll 9.18.13.2702]
+    Renderer: NVIDIA GeForce 8400M GS 
+    Vendor:   NVIDIA
+    VRAM:     1006 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Alex\Documents\dev\gjj\project\GlobalGameJam\TestBuild_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Alex\Documents\dev\gjj\project\GlobalGameJam\TestBuild_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Alex\Documents\dev\gjj\project\GlobalGameJam\TestBuild_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Alex\Documents\dev\gjj\project\GlobalGameJam\TestBuild_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Alex\Documents\dev\gjj\project\GlobalGameJam\TestBuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Alex\Documents\dev\gjj\project\GlobalGameJam\TestBuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Alex\Documents\dev\gjj\project\GlobalGameJam\TestBuild_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Alex\Documents\dev\gjj\project\GlobalGameJam\TestBuild_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+- Completed reload, in  0.256 seconds
+desktop: 1440x900 60Hz; virtual: 1440x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+UnloadTime: 0.577302 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 76.
+Total: 1.009579 ms (FindLiveObjects: 0.018478 ms CreateObjectMapping: 0.016798 ms MarkObjects: 0.081191 ms  DeleteObjects: 0.011198 ms)
+
+The file 'C:/Users/Alex/Documents/dev/gjj/project/GlobalGameJam/TestBuild_Data/level1' is corrupted! Remove it and launch unity again!
+[Position out of bounds! 6620 > 6616]
+ 
+(Filename:  Line: 276)
+
+UnloadTime: 0.476512 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 161.
+Total: 1.228517 ms (FindLiveObjects: 0.025757 ms CreateObjectMapping: 0.017918 ms MarkObjects: 0.163503 ms  DeleteObjects: 0.008959 ms)
+
+Initialize engine version: 4.3.3f1 (c8ca9b6b9936)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dumx.dll 9.18.13.2702]
+    Renderer: NVIDIA GeForce 8400M GS 
+    Vendor:   NVIDIA
+    VRAM:     1006 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Alex\Documents\dev\gjj\project\GlobalGameJam\TestBuild_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Alex\Documents\dev\gjj\project\GlobalGameJam\TestBuild_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Alex\Documents\dev\gjj\project\GlobalGameJam\TestBuild_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Alex\Documents\dev\gjj\project\GlobalGameJam\TestBuild_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Alex\Documents\dev\gjj\project\GlobalGameJam\TestBuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Alex\Documents\dev\gjj\project\GlobalGameJam\TestBuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Alex\Documents\dev\gjj\project\GlobalGameJam\TestBuild_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Alex\Documents\dev\gjj\project\GlobalGameJam\TestBuild_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+- Completed reload, in  0.125 seconds
+desktop: 1440x900 60Hz; virtual: 1440x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Initialize engine version: 4.3.3f1 (c8ca9b6b9936)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dumx.dll 9.18.13.2702]
+    Renderer: NVIDIA GeForce 8400M GS 
+    Vendor:   NVIDIA
+    VRAM:     1006 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Alex\Documents\dev\gjj\project\GlobalGameJam\TestBuild_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Alex\Documents\dev\gjj\project\GlobalGameJam\TestBuild_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Alex\Documents\dev\gjj\project\GlobalGameJam\TestBuild_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Alex\Documents\dev\gjj\project\GlobalGameJam\TestBuild_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Alex\Documents\dev\gjj\project\GlobalGameJam\TestBuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Alex\Documents\dev\gjj\project\GlobalGameJam\TestBuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Alex\Documents\dev\gjj\project\GlobalGameJam\TestBuild_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Alex\Documents\dev\gjj\project\GlobalGameJam\TestBuild_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+- Completed reload, in  0.159 seconds
+desktop: 1440x900 60Hz; virtual: 1440x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+UnloadTime: 0.456914 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 76.
+Total: 2.137867 ms (FindLiveObjects: 0.011198 ms CreateObjectMapping: 0.022957 ms MarkObjects: 0.094070 ms  DeleteObjects: 0.013438 ms)
+
+UnloadTime: 0.595780 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 76.
+Total: 0.989421 ms (FindLiveObjects: 0.011198 ms CreateObjectMapping: 0.016238 ms MarkObjects: 0.084551 ms  DeleteObjects: 0.011198 ms)
+
+Failed to initialize network interface. Is the listen port already in use?
+ 
+(Filename:  Line: 200)
+
+It's not possible to register a host until it is running.
+ 
+(Filename:  Line: 587)
+
+The file 'C:/Users/Alex/Documents/dev/gjj/project/GlobalGameJam/TestBuild_Data/level1' is corrupted! Remove it and launch unity again!
+[Position out of bounds! 6620 > 6616]
+ 
+(Filename:  Line: 276)
+
+UnloadTime: 0.413238 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 162.
+Total: 1.743106 ms (FindLiveObjects: 0.026317 ms CreateObjectMapping: 0.017358 ms MarkObjects: 0.164063 ms  DeleteObjects: 0.008399 ms)
+
