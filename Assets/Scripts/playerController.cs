@@ -5,9 +5,9 @@ public class playerController : MonoBehaviour {
 
 	// --- PLAYER VARIABLES ---
 	public Vector3 playerPos;
-	public int playerLife;
 	public bool playerInRange;
 	public enum playerStates{Search, Avoid, Follow, Caught};
+	public bool playerDeath;
 	public playerStates state = playerStates.Search;
 
 	// --- ENEMY VARIABLES ---
@@ -16,10 +16,8 @@ public class playerController : MonoBehaviour {
 
 	void Start() {
 		playerInRange = false;
-		playerLife = 3;
 		state = playerStates.Search;
 	}
-
 
 	void Update () {
 		//Keep tabs on the players locations and distance from each other.
@@ -30,13 +28,11 @@ public class playerController : MonoBehaviour {
 		//Determine if player is close to the enemy. If so change state. We'll alert them later.
 		if (distance < 10.0f) {
 			playerInRange = true;
+			//TODO: GUI - Show on screen the players state.
+			//print(state);
 		} else {
 			playerInRange = false;
 		}
-
-
-		//Tell that lazy coder what exactly is going on.
-		UnityEngine.Debug.Log (state);
 	}
 
 	//Handy little function to help us find the closest enemy. With that done we can pull information regarding them.
@@ -60,9 +56,9 @@ public class playerController : MonoBehaviour {
 	//Tag: Determine results when a player tags another
 	void OnTriggerEnter(Collider other) {
 		if(other.gameObject.CompareTag("Enemy")) {
-		//	playerLife --;
+			print("YOLO");
 			state = playerStates.Caught;
-
+			playerDeath = true;
 		}
 	}
 
