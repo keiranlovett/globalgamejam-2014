@@ -15,12 +15,13 @@ public class gameManager : MonoBehaviour {
 
 	public GameObject playerA;
 	public GameObject playerB;
+	public int scoreLimit;
 	public int playerAScore;
 	public int playerBScore;
 
+
 	int stalkStatus;
 	int stalkStatusTemp;
-	public bool stalkAssign;
 
 	// Use this for initialization
 	void Start () {
@@ -73,8 +74,14 @@ public class gameManager : MonoBehaviour {
 		if(scriptA.playerDeath == true) {
 			playerBScore ++;
 		} 
+		if(scriptB.playerDeath == true) {
+			playerAScore ++;
+		} 
 
+		if(playerBScore == scoreLimit || playerBScore == scoreLimit) {
+			//TODO End Game UI 
 
+		}
 
 	}
 

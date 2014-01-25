@@ -1,0 +1,91 @@
+fileFormatVersion: 2
+guid: 4bcd694e2f38f4858a7c7ef46710d906
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: ground_monkstatue
+    100002: //RootNode
+    100004: monkstatue_monkstatue01
+    100006: monkstatue_monkstatue02
+    100008: monkstatue_monkstatue03
+    100010: monkstatue_monkstatue04
+    100012: monkstatue_monkstatue05
+    400000: ground_monkstatue
+    400002: //RootNode
+    400004: monkstatue_monkstatue01
+    400006: monkstatue_monkstatue02
+    400008: monkstatue_monkstatue03
+    400010: monkstatue_monkstatue04
+    400012: monkstatue_monkstatue05
+    2300000: ground_monkstatue
+    2300002: monkstatue_monkstatue01
+    2300004: monkstatue_monkstatue02
+    2300006: monkstatue_monkstatue03
+    2300008: monkstatue_monkstatue04
+    2300010: monkstatue_monkstatue05
+    3300000: ground_monkstatue
+    3300002: monkstatue_monkstatue01
+    3300004: monkstatue_monkstatue02
+    3300006: monkstatue_monkstatue03
+    3300008: monkstatue_monkstatue04
+    3300010: monkstatue_monkstatue05
+    4300000: ground_monkstatue
+    4300002: monkstatue_monkstatue01
+    4300004: monkstatue_monkstatue02
+    4300006: monkstatue_monkstatue03
+    4300008: monkstatue_monkstatue04
+    4300010: monkstatue_monkstatue05
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
