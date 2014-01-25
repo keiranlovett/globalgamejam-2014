@@ -1,1 +1,11 @@
-Just making sure i can join the fun :D
+**TODO:**
+
+- UI
+-- Menu
+-- Lobby
+-- Help
+-- Story
+- Mechanics
+-- Score Tracking
+-- Networking
+
