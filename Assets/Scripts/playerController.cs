@@ -67,6 +67,11 @@ public class playerController : MonoBehaviour {
 	}
 
 	void onSerializeNetworkView(BitStream stream, NetworkMessageInfo info) {
-		Debug.Log("Hey");
+		if (stream.isWriting) {
+			stream.Serialize ("im giving you data");
+		} else {
+			string test;
+			Debug.Log(	
+		}
 	}
 }
