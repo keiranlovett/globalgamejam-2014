@@ -35,16 +35,16 @@ Material:
       data:
         first:
           name: _FogRadius
-        second: 9.38000011
+        second: 5.59000015
       data:
         first:
           name: _FogMaxRadius
-        second: .0700000003
+        second: .949999988
     m_Colors:
       data:
         first:
           name: _Color
-        second: {r: .0220588446, g: .0210856609, b: .0210856609, a: .192156866}
+        second: {r: .0220588446, g: .0210856609, b: .0210856609, a: .0784313753}
       data:
         first:
           name: _Player1_Pos
