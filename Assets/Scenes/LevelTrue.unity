@@ -31639,6 +31639,42 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8dc6d59f091dd437695e03e59c096aa1, type: 2}
+    - target: {fileID: 400832, guid: ab282702adbac4cfd97b069c52963033, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 22.2774658
+      objectReference: {fileID: 0}
+    - target: {fileID: 400832, guid: ab282702adbac4cfd97b069c52963033, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: .164124206
+      objectReference: {fileID: 0}
+    - target: {fileID: 400832, guid: ab282702adbac4cfd97b069c52963033, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.197634861
+      objectReference: {fileID: 0}
+    - target: {fileID: 400832, guid: ab282702adbac4cfd97b069c52963033, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .16711615
+      objectReference: {fileID: 0}
+    - target: {fileID: 400832, guid: ab282702adbac4cfd97b069c52963033, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .951880217
+      objectReference: {fileID: 0}
+    - target: {fileID: 400832, guid: ab282702adbac4cfd97b069c52963033, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -92.1082687
+      objectReference: {fileID: 0}
+    - target: {fileID: 400832, guid: ab282702adbac4cfd97b069c52963033, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 87.0976334
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800000, guid: ab282702adbac4cfd97b069c52963033, type: 2}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800000, guid: ab282702adbac4cfd97b069c52963033, type: 2}
+      propertyPath: m_Shadows.m_Bias
+      value: .25999999
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ab282702adbac4cfd97b069c52963033, type: 2}
   m_RootGameObject: {fileID: 1609553541}
@@ -48326,19 +48362,19 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1609553542}
     m_Modifications:
     - target: {fileID: 400000, guid: 9485b0c79d11e2e4d0007da98d76c639, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -23.28302
+      value: -5.63607788
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9485b0c79d11e2e4d0007da98d76c639, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -4.07924604
+      value: -14.0792465
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9485b0c79d11e2e4d0007da98d76c639, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -16.5701752
+      value: -7.48666382
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9485b0c79d11e2e4d0007da98d76c639, type: 2}
       propertyPath: m_LocalRotation.x
@@ -86187,10 +86223,10 @@ Transform:
   m_PrefabInternal: {fileID: 796350423}
   m_GameObject: {fileID: 1478663182}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -23.28302, y: -4.07924604, z: -16.5701752}
+  m_LocalPosition: {x: -5.63607788, y: -14.0792465, z: -7.48666382}
   m_LocalScale: {x: 16, y: 1, z: 16}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1609553542}
 --- !u!1 &1479566569
 GameObject:
   m_ObjectHideFlags: 0
@@ -87088,8 +87124,8 @@ Transform:
   m_PrefabParentObject: {fileID: 400832, guid: ab282702adbac4cfd97b069c52963033, type: 2}
   m_PrefabInternal: {fileID: 531148714}
   m_GameObject: {fileID: 1491711609}
-  m_LocalRotation: {x: .408217937, y: -.234569728, z: .109381661, w: .875426114}
-  m_LocalPosition: {x: 18.6076126, y: -10.7889709, z: 11.0586786}
+  m_LocalRotation: {x: .164124206, y: -.197634861, z: .16711615, w: .951880217}
+  m_LocalPosition: {x: 87.0976334, y: 22.2774658, z: -92.1082687}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1609553542}
@@ -87109,10 +87145,10 @@ Light:
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_Strength: 1
-    m_Bias: .0500000007
+    m_Bias: .25999999
     m_Softness: 4
     m_SoftnessFade: 1
   m_Cookie: {fileID: 0}
@@ -94431,6 +94467,7 @@ Transform:
   - {fileID: 728625463}
   - {fileID: 1206905228}
   - {fileID: 286810046}
+  - {fileID: 1478663186}
   - {fileID: 1491711610}
   - {fileID: 378916549}
   - {fileID: 948815643}
