@@ -5,7 +5,7 @@ public class SplashscreenScript : MonoBehaviour {
 
 	// Use this for initialization
 	IEnumerator Start () {
-		yield return new WaitForSeconds(4);
+		yield return new WaitForSeconds(10);
 		Application.LoadLevel(1);
 	}
 	

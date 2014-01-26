@@ -4,7 +4,7 @@ using System.Collections;
 public class NetworkManagerold : MonoBehaviour
 {
     private const string typeName = "UniqueGameName";
-    private const string gameName = "RoomName";
+    private string gameName;
 
 	public GameObject gameManager;
 	public GUITexture SplashTexture;
@@ -41,13 +41,14 @@ public class NetworkManagerold : MonoBehaviour
         }
     }
 
-    private void StartServer()
-    {
-        Network.InitializeServer(5, 25000, !Network.HavePublicAddress());
-        MasterServer.RegisterHost(typeName, gameName);
-    }
-
-    void OnServerInitialized()
+	private void StartServer()
+	{
+		Network.InitializeServer(5, 25000, !Network.HavePublicAddress());
+		gameName = System.Environment.UserName;
+		MasterServer.RegisterHost(typeName, gameName);
+	}
+	
+	void OnServerInitialized()
     {
         SpawnPlayer();
     }

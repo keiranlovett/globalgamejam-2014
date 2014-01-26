@@ -20,6 +20,9 @@ public class networkSync : MonoBehaviour {
 	public enum playerStates{Search, Avoid, Follow, Caught};
 	public bool playerDeath;
 	public playerStates state = playerStates.Search;
+	public enum direction{up, down, left, right};
+	public direction playerDirection = direction.up;
+	public direction prevDirection = direction.up;
 
 	//CAMERA
 	Transform Object1;
@@ -51,11 +54,10 @@ public class networkSync : MonoBehaviour {
 
 		gameManager = GameObject.FindWithTag("GameController");
 
-
 		if (networkView.isMine) {
 			Object1 = GameObject.FindWithTag("MainCamera").transform;
 			Object1.parent = transform;
-			Object1.transform.position = transform.localPosition + new Vector3(0f,15f,0f);
+			Object1.transform.position = transform.localPosition + new Vector3(0f,15f,-5f);
 
 			playerInRange = false;
 			state = playerStates.Search;
@@ -78,7 +80,28 @@ public class networkSync : MonoBehaviour {
 			playerPos = this.transform.position;
 			enemyPos = FindClosestEnemy().transform.position;
 			var distance = Vector3.Distance(this.transform.position, FindClosestEnemy().transform.position);
-			
+			Vector3 rota;
+			if (prevDirection != playerDirection) {
+				switch (playerDirection) {
+				case direction.up:
+					rota = new Vector3(0, 0, 0);
+					transform.GetChild(1).eulerAngles = rota;
+					break;
+				case direction.down:
+					rota = new Vector3(100, 180, 100);
+					transform.GetChild(1).eulerAngles = rota;
+					break;
+				case direction.left:
+					rota = new Vector3(100, 270, 100);
+					transform.GetChild(1).eulerAngles =rota;
+					break;
+				case direction.right:
+					rota = new Vector3(100, 90, 100);
+					transform.GetChild(1).eulerAngles = rota;
+					break;
+				}
+				prevDirection = playerDirection;
+			}
 			//Determine if player is close to the enemy. If so change state. We'll alert them later.
 			if (distance < 10.0f) {
 				playerInRange = true;
@@ -140,18 +163,23 @@ public class networkSync : MonoBehaviour {
 	}
 
     private void InputMovement() {
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.W)) {
             rigidbody.MovePosition(rigidbody.position + Vector3.forward * speed * Time.deltaTime);
-
-        if (Input.GetKey(KeyCode.S))
+			playerDirection = direction.up;
+		}
+        if (Input.GetKey(KeyCode.S)) {
             rigidbody.MovePosition(rigidbody.position - Vector3.forward * speed * Time.deltaTime);
-
-        if (Input.GetKey(KeyCode.D))
+			playerDirection = direction.down;
+		}
+        if (Input.GetKey(KeyCode.D)) {
             rigidbody.MovePosition(rigidbody.position + Vector3.right * speed * Time.deltaTime);
-
-        if (Input.GetKey(KeyCode.A))
+			playerDirection = direction.right;
+		}
+        if (Input.GetKey(KeyCode.A)){
             rigidbody.MovePosition(rigidbody.position - Vector3.right * speed * Time.deltaTime);
-    }
+			playerDirection = direction.left;
+		}
+	}
 
     private void SyncedMovement() {
 		syncTime += Time.deltaTime;
