@@ -55,6 +55,7 @@ public class networkSync : MonoBehaviour {
 		if (networkView.isMine) {
 			Object1 = GameObject.FindWithTag("MainCamera").transform;
 			Object1.parent = transform;
+			Object1.transform.position = transform.localPosition + new Vector3(0f,15f,0f);
 
 			playerInRange = false;
 			state = playerStates.Search;
