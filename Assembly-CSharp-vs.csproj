@@ -46,15 +46,16 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\CharacterMotor.cs" />
-     <Compile Include="Assets\Scripts\FPSInputController.cs" />
      <Compile Include="Assets\Scripts\NetworkManager.cs" />
+     <Compile Include="Assets\Scripts\NetworkManagerold.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\SplashscreenScript.cs" />
      <Compile Include="Assets\Scripts\TitleGUIHandler.cs" />
      <Compile Include="Assets\Scripts\WaitingRoomScript.cs" />
      <Compile Include="Assets\Scripts\gameManager.cs" />
+     <Compile Include="Assets\Scripts\networkSync.cs" />
      <Compile Include="Assets\Scripts\playerController.cs" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
      <None Include="Assets\Shaders\fogOfWar.shader" />
  <Reference Include="Library\ScriptAssemblies\Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>

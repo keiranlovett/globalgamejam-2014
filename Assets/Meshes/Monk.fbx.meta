@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 059e460f45a5c4f318930f9c83c06dbe
+guid: 199ce6f9f8e3a9f4d84e12947fb7085f
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
@@ -8,6 +8,7 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: monkstatue:polySurface1
+    6400000: //RootNode
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -27,9 +28,9 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .00999999978
-    meshCompression: 0
-    addColliders: 0
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
