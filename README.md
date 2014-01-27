@@ -1,11 +1,15 @@
 # Global Games Jam 2014: Game Design Document
 
 ## Technicals: 
-Alex Haak, Keiran Lovett, Sam Wong, Mandy Liang, Sathya Naidu, Mark Calugay
-Date: January 24, 2014
-Team Name: Super Awesome Possum Mean Team 
-Game Title: Romera vs Julia 
-Theme: Bi-polar lovers 
+- Alex Haak (thedevtank), Keiran Lovett(keiranlovett), Sam Wong, Mandy Liang, Sathya Naidu, Mark Calugay
+
+- Date: January 24, 2014
+
+- Team Name: Super Awesome Possum Mean Team 
+
+- Game Title: Romera vs Julia 
+
+- Theme: Bi-polar lovers 
 
 ## Vision:
 An experimental game that focuses on the theme: “We don’t see things as they are, we see things as we are.” A game that receives an emotional response from playing a modified version of tag with a twist. 
@@ -86,11 +90,16 @@ Score tally up to five, and we have a winner.
 ## Conclusion
 ### About the Game and Players
 This game is centered around the theme that was announced in the beginning of the Global Games Jam. This game will make the players think that they are not really who they think they are. Are you trying to stalk the prey or are you being chased?
+
 1. Fits Well With Platform
 This fits well with the chosen platform for the sole purpose of multiplayer over a network. This game will work better with two players because they will not know who will be the stalker and who will be the prey. An AI will not work as well because it will be unfair to the players. 
+
 2. Pace 
 The overall pace of the game will be slow explorations followed by quick bursts of cat and mouse. Once the player is caught or evaded, the loop begins. 
+
 3. Rewards
-**Informed Choice**: Players gain a powerup and temporarily boost his chances of winning a point. 
-**Meaningful Choice**: Players 
-**Irreversible Choice**:
+- **Informed Choice**: Players gain a powerup and temporarily boost his chances of winning a point. 
+
+- **Meaningful Choice**: Players 
+
+- **Irreversible Choice**:
